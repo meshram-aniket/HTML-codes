@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table
+
+        {
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+<body>
+    <table width="50px;" border="black solid 2px">
+        <thead  >
+            <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>gmail</th>
+            <th>salary</th>
+            <th>city</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td>Aniket</td>
+            <td>33</td>
+            <td>aniket230401@gmail.com</td>
+        </tr>
+        </tbody>
+
+        
+    </table>
+
+    <!-- colspan -->
+    <table width="5px" border="5px" solid black>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>Rs100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td colspan="2">Sum: Rs180</td>
+        </tr>
+      </table>
+
+      <!-- rowspan -->
+
+      <table width="5px" border="5px" solid black>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td rowspan="2">Rs100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <!-- <td>80</td> -->
+        </tr>
+        <tr>
+          <td colspan="2">Sum: Rs100</td>
+        </tr>
+      </table>
+    
+</body>
+</html>
